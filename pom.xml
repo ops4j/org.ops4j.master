@@ -50,6 +50,11 @@
     </site>
   </distributionManagement>
 
+  <issueManagement>
+    <system>jira</system>
+    <url>http://issues.ops4j.org</url>
+  </issueManagement>  
+
   <ciManagement>
     <system>bamboo</system>
     <url>http://ci.ops4j.org/</url>
