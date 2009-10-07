@@ -39,8 +39,8 @@
   </mailingLists>
 
   <scm>
-    <connection>scm:svn:https://scm.ops4j.org/repos/ops4j/qa/master-1.0.2</connection>
-    <developerConnection>scm:svn:https://scm.ops4j.org/repos/ops4j/qa/master-1.0.2</developerConnection>
+    <connection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/</connection>
+    <developerConnection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/</developerConnection>
   </scm>
 
   <distributionManagement>
@@ -83,7 +83,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.0-beta-8</version>
+        <version>2.0-beta-6</version>
         <configuration>
           <preparationGoals>clean install</preparationGoals>
           <tagBase>https://scm.ops4j.org/repos/ops4j/qa</tagBase>
