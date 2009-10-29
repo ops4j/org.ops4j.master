@@ -53,7 +53,7 @@
   <issueManagement>
     <system>jira</system>
     <url>http://issues.ops4j.org</url>
-  </issueManagement>  
+  </issueManagement>
 
   <ciManagement>
     <system>bamboo</system>
@@ -80,7 +80,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-        <version>2.0.1</version>
       </plugin>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
@@ -106,7 +105,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>2.3</version>
         <!-- Note: dependency needed to locate the configuration -->
         <dependencies>
           <dependency>
@@ -123,7 +121,7 @@
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-ssh-external</artifactId>
-        <version>1.0-beta-6</version>
+        <version>1.0-alpha-6</version>
       </extension>
     </extensions>
   </build>
