@@ -123,6 +123,7 @@
           <configuration>
             <preparationGoals>clean install</preparationGoals>
             <tagBase>https://scm.ops4j.org/repos/ops4j/qa</tagBase>
+            <remoteTagging>false</remoteTagging>
           </configuration>
         </plugin>
 
