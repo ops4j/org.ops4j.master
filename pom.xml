@@ -55,6 +55,10 @@
     
   </scm>
 
+  <properties>
+    <ops4j.gpg.use-agent>false</ops4j.gpg.use-agent>
+  </properties>
+
   <distributionManagement>
     <site>
       <id>ops4j.website.deploy</id>
@@ -236,6 +240,9 @@
                 <goals>
                   <goal>sign</goal>
                 </goals>
+                <configuration>
+                  <useAgent>${ops4j.gpg.use-agent}</useAgent>
+                </configuration>
               </execution>
             </executions>
           </plugin>
