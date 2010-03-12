@@ -21,6 +21,14 @@
 
   <inceptionYear>2006</inceptionYear>
 
+  <developers>
+    <developer>
+      <id>johan</id>
+      <name>Johan Lindquist</name>
+      <email>johan (at) kawoo.co.uk</email>
+    </developer>
+  </developers>
+
   <licenses>
     <license>
       <name>ALv2</name>
