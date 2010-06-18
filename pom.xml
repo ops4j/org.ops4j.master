@@ -62,7 +62,7 @@
   <distributionManagement>
     <site>
       <id>ops4j.website.deploy</id>
-      <url>scpexe://www.ops4j.org/var/http/www.ops4j.org/projects/</url>
+      <url>scpexe://www.ops4j.org/home/www/www.ops4j.org/projects/</url>
     </site>
   </distributionManagement>
 
@@ -255,11 +255,11 @@
       <distributionManagement>
         <repository>
           <id>ops4j.releases.deploy</id>
-          <url>scpexe://repository.ops4j.org/var/http/repository.ops4j.org/mvn-releases</url>
+          <url>scpexe://repository.ops4j.org/home/www/repository.ops4j.org/mvn-releases</url>
         </repository>
         <snapshotRepository>
           <id>ops4j.snapshots.deploy</id>
-          <url>scpexe://repository.ops4j.org/var/http/repository.ops4j.org/mvn-snapshots</url>
+          <url>scpexe://repository.ops4j.org/home/www/repository.ops4j.org/mvn-snapshots</url>
         </snapshotRepository>
       </distributionManagement>
     </profile>
