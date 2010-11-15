@@ -4,7 +4,7 @@
 
   <groupId>org.ops4j</groupId>
   <artifactId>master</artifactId>
-  <version>1.0.9-SNAPSHOT</version>
+  <version>1.0.9</version>
   <packaging>pom</packaging>
 
   <name>OPS4J - Master POM</name>
@@ -49,9 +49,9 @@
   </mailingLists>
 
   <scm>
-    <connection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/master</connection>
-    <developerConnection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/master</developerConnection>
-    <url>http://scm.ops4j.org/browse/OPS4J/projects/master</url>
+    <connection>scm:svn:https://scm.ops4j.org/repos/ops4j/qa/master-1.0.9</connection>
+    <developerConnection>scm:svn:https://scm.ops4j.org/repos/ops4j/qa/master-1.0.9</developerConnection>
+    <url>http://scm.ops4j.org/browse/OPS4J/qa/master-1.0.9</url>
     
   </scm>
 
