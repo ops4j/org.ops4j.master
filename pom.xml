@@ -52,12 +52,11 @@
     <connection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/master</connection>
     <developerConnection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/master</developerConnection>
     <url>http://scm.ops4j.org/browse/OPS4J/projects/master</url>
-    
   </scm>
 
   <properties>
     <ops4j.gpg.use-agent>false</ops4j.gpg.use-agent>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
@@ -88,10 +87,9 @@
   </ciManagement>
 
   <build>
-
     <pluginManagement>
       <plugins>
-	    <plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
           <version>2.4.1</version>
@@ -141,7 +139,7 @@
             <preparationGoals>clean install</preparationGoals>
             <tagBase>https://scm.ops4j.org/repos/ops4j/qa</tagBase>
             <remoteTagging>false</remoteTagging>
-			<autoVersionSubmodules>true</autoVersionSubmodules> 
+            <autoVersionSubmodules>true</autoVersionSubmodules> 
           </configuration>
         </plugin>
 
@@ -201,24 +199,23 @@
           </dependencies>
         </plugin>
 
-		<plugin>
-			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>retrotranslator-maven-plugin</artifactId>
-			<version>1.0-alpha-4</version>
-		</plugin>
-		
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-deploy-plugin</artifactId>
-			<version>2.5</version>
-		</plugin>
-		
-		 <plugin>
-	        <groupId>org.apache.maven.plugins</groupId>
-	        <artifactId>maven-javadoc-plugin</artifactId>
-	        <version>2.6.1</version>
-		</plugin>
-		
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>retrotranslator-maven-plugin</artifactId>
+          <version>1.0-alpha-4</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.5</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>2.6.1</version>
+        </plugin>
       </plugins>
     </pluginManagement>
 
@@ -242,7 +239,7 @@
         <version>1.0-beta-6</version>
       </extension>
     </extensions>
-    
+
   </build>
 
   <profiles>
@@ -253,7 +250,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-			<version>1.1</version>
+            <version>1.1</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
@@ -383,3 +380,4 @@
   </reporting>
 
 </project>
+
