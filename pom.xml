@@ -40,12 +40,6 @@
     </mailingList>
   </mailingLists>
 
-  <scm>
-    <connection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/master</connection>
-    <developerConnection>scm:svn:https://scm.ops4j.org/repos/ops4j/projects/master</developerConnection>
-    <url>http://scm.ops4j.org/browse/OPS4J/projects/master</url>
-  </scm>
-
   <properties>
     <ops4j.gpg.use-agent>false</ops4j.gpg.use-agent>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
