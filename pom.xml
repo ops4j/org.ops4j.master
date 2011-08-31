@@ -52,7 +52,7 @@
   </issueManagement>
 
   <ciManagement>
-    <system>bamboo</system>
+    <system>Hudson</system>
     <url>http://ci.ops4j.org/</url>
     <notifiers>
       <notifier>
