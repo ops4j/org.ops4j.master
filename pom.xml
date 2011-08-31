@@ -311,7 +311,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>2.4</version>
+        <version>2.7</version>
         <configuration>
           <!-- Note: configuration comes from the classpath -->
           <configLocation>org/ops4j/checkstyle/ops4j-checkstyle-format.xml</configLocation>
