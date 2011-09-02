@@ -72,6 +72,20 @@
       </notifier>
     </notifiers>
   </ciManagement>
+  
+  <developers>
+    <!-- 
+       The Hall of Fame list would be much too long, so we'd like to leave it out,
+       but Sonatype OSS Repository Hosting requires this section to be present.
+       I humbly include my address here, as a placeholder for the entire
+       OPS4J development team.
+     -->
+    <developer>
+      <id>hwellmann</id>
+      <name>Harald Wellmann</name>
+      <email>harald.wellmann@gmx.de</email>
+    </developer>
+  </developers>
 
   <build>
     <pluginManagement>
