@@ -45,7 +45,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <plugins.javadoc.version>2.8</plugins.javadoc.version>
+    <release-master-altGitURL>scm:git:ssh://git@github.com/ops4j/org.ops4j.master.git</release-master-altGitURL>
   </properties>
+
+  <scm>
+    <connection>scm:git:git://github.com/ops4j/org.ops4j.master.git</connection>
+    <developerConnection>${release-master-altGitURL}</developerConnection>
+    <url>http://github.com/ops4j/org.ops4j.master/tree/master</url>
+  </scm>
 
   <issueManagement>
     <system>jira</system>
