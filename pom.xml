@@ -138,7 +138,7 @@
             <useReleaseProfile>false</useReleaseProfile>
             <pushChanges>false</pushChanges>
             <arguments>-Psonatype-oss-release -DpushChanges=false</arguments>
-            <preparationGoals>clean install -Dmaven.test.skip=true</preparationGoals>
+            <preparationGoals>clean install</preparationGoals>
             <tagNameFormat>v@{project.version}</tagNameFormat>
           </configuration>
         </plugin>
