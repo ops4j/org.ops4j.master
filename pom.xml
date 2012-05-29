@@ -53,7 +53,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/ops4j/org.ops4j.master.git</connection>
-    <developerConnection>${release-master-altGitURL}</developerConnection>
+    <developerConnection>scm:git:git@github.com:ops4j/org.ops4j.master.git</developerConnection>
     <url>http://github.com/ops4j/org.ops4j.master/tree/master</url>
   </scm>
 
