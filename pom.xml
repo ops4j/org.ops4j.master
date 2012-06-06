@@ -136,7 +136,6 @@
           <configuration>
             <autoVersionSubmodules>true</autoVersionSubmodules>
             <useReleaseProfile>false</useReleaseProfile>
-            <pushChanges>false</pushChanges>
             <arguments>-Psonatype-oss-release -DpushChanges=false</arguments>
             <preparationGoals>clean install</preparationGoals>
             <tagNameFormat>v@{project.version}</tagNameFormat>
