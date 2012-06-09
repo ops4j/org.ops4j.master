@@ -199,6 +199,17 @@
           <version>2.7</version>
         </plugin>
 
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <!-- Version from the parent; adapt with parent -->
+          <version>2.7</version>
+          <configuration>
+            <minmemory>128m</minmemory>
+            <maxmemory>512m</maxmemory>
+          </configuration>
+        </plugin>
+        
         <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
         <plugin>
           <groupId>org.eclipse.m2e</groupId>
@@ -256,12 +267,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <!-- Version from the parent; adapt with parent -->
-        <version>2.7</version>
-        <configuration>
-          <minmemory>128m</minmemory>
-          <maxmemory>512</maxmemory>
-        </configuration>
       </plugin>
 
       <plugin>
