@@ -267,6 +267,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
+        <!-- Version from the parent; adapt with parent -->
+        <version>2.7</version>
+        <configuration>
+          <minmemory>128m</minmemory>
+          <maxmemory>512m</maxmemory>
+        </configuration>
       </plugin>
 
       <plugin>
