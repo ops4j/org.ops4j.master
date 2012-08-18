@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -76,14 +77,11 @@
       </notifier>
     </notifiers>
   </ciManagement>
-  
+
   <developers>
-    <!-- 
-       The Hall of Fame list would be much too long, so we'd like to leave it out,
-       but Sonatype OSS Repository Hosting requires this section to be present.
-       I humbly include my address here, as a placeholder for the entire
-       OPS4J development team.
-     -->
+    <!-- The Hall of Fame list would be much too long, so we'd like to leave it out, 
+      but Sonatype OSS Repository Hosting requires this section to be present. I humbly 
+      include my address here, as a placeholder for the entire OPS4J development team. -->
     <developer>
       <id>hwellmann</id>
       <name>Harald Wellmann</name>
@@ -209,8 +207,9 @@
             <maxmemory>512m</maxmemory>
           </configuration>
         </plugin>
-        
-        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+
+        <!--This plugin's configuration is used to store Eclipse m2e settings only. 
+          It has no influence on the Maven build itself. -->
         <plugin>
           <groupId>org.eclipse.m2e</groupId>
           <artifactId>lifecycle-mapping</artifactId>
@@ -233,6 +232,54 @@
                     <ignore />
                   </action>
                 </pluginExecution>
+                <pluginExecution>
+                  <pluginExecutionFilter>
+                    <groupId>
+                      org.apache.maven.plugins
+                    </groupId>
+                    <artifactId>
+                      maven-enforcer-plugin
+                    </artifactId>
+                    <versionRange>[1.0,)</versionRange>
+                    <goals>
+                      <goal>enforce</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <ignore />
+                  </action>
+                </pluginExecution>
+                <pluginExecution>
+                  <pluginExecutionFilter>
+                    <groupId>
+                      org.apache.servicemix.tooling
+                    </groupId>
+                    <artifactId>
+                      depends-maven-plugin
+                    </artifactId>
+                    <versionRange>[1.2,)</versionRange>
+                    <goals>
+                      <goal>generate-depends-file</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <ignore />
+                  </action>
+                </pluginExecution>
+                <pluginExecution>
+                  <pluginExecutionFilter>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>maven-bundle-plugin</artifactId>
+                    <versionRange>[2.3,)</versionRange>
+                    <goals>
+                      <goal>manifest</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <ignore />
+                  </action>
+                </pluginExecution>
+
               </pluginExecutions>
             </lifecycleMappingMetadata>
           </configuration>
@@ -243,10 +290,8 @@
 
     <plugins>
       <plugin>
-        <!--
-        This seems to have to be defined here order for the above configuration to be
-        picked up during report generation 
-        -->
+        <!-- This seems to have to be defined here order for the above configuration 
+          to be picked up during report generation -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
       </plugin>
