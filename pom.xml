@@ -98,10 +98,14 @@
           <version>2.6</version>
         </plugin>
 
+        <!-- 
+           do not upgrade to 2.4 before this issue is fixed:
+           https://github.com/sonatype/m2eclipse-extras/issues/10
+         -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>2.4</version>
+          <version>2.3.2</version>
         </plugin>
 
         <plugin>
