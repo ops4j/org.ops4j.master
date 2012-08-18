@@ -138,10 +138,10 @@
           <version>2.3.2</version>
           <configuration>
             <autoVersionSubmodules>true</autoVersionSubmodules>
-            <useReleaseProfile>false</useReleaseProfile>
-            <arguments>-Psonatype-oss-release -DpushChanges=false</arguments>
-            <preparationGoals>clean install</preparationGoals>
-            <tagNameFormat>v@{project.version}</tagNameFormat>
+            <preparationGoals>clean install javadoc:jar</preparationGoals>
+            <releaseProfiles>sonatype-oss-release</releaseProfiles>
+            <tagNameFormat>@{project.artifactId}-@{project.version}</tagNameFormat>
+            <useReleaseProfile>true</useReleaseProfile>
           </configuration>
         </plugin>
 
