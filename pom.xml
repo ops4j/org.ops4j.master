@@ -39,10 +39,10 @@
   <mailingLists>
     <mailingList>
       <name>General OPS4J</name>
-      <subscribe>general-subscribe@lists.ops4j.org</subscribe>
-      <unsubscribe>general-unsubscribe@lists.ops4j.org</unsubscribe>
-      <post>general@lists.ops4j.org</post>
-      <archive>http://lists.ops4j.org/pipermail/general</archive>
+      <subscribe>ops4j+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>ops4j+unsubscribe@googlegroups.com</unsubscribe>
+      <post>ops4j@googlegroups.com</post>
+      <archive>https://groups.google.com/forum/?fromgroups=#!forum/ops4j</archive>
     </mailingList>
   </mailingLists>
 
@@ -151,7 +151,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.0</version>
+          <version>3.1</version>
           <configuration>
             <source>1.6</source>
             <target>1.6</target>
