@@ -4,7 +4,7 @@
 
   <groupId>org.ops4j</groupId>
   <artifactId>master</artifactId>
-  <version>4.1.0</version>
+  <version>4.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>OPS4J - Master POM</name>
@@ -55,7 +55,7 @@
     <connection>scm:git:git://github.com/ops4j/org.ops4j.master.git</connection>
     <developerConnection>scm:git:git@github.com:ops4j/org.ops4j.master.git</developerConnection>
     <url>http://github.com/ops4j/org.ops4j.master/tree/master</url>
-    <tag>master-4.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
