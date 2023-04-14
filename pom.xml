@@ -295,7 +295,7 @@
         <artifactId>maven-enforcer-plugin</artifactId>
         <executions>
           <execution>
-            <id>enforce-maven</id>
+            <id>enforce-environment</id>
             <goals>
               <goal>enforce</goal>
             </goals>
